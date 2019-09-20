@@ -1,0 +1,93 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+	line-height: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+body{
+	background: #f0f0f0;	
+	color: #404040;
+	font-size: 1.6rem;
+}
+
+.head {
+	height: 40px;
+	background: -webkit-linear-gradient(top,  #666666 0%,#444444 50%,#151515 51%,#2f2f2f 100%);
+	border-bottom: 5px solid #0C5075;
+}
+
+.head img {
+	height: 34px;
+	margin: 3px;
+	margin-left: 10px;
+}
+
+.paper {
+	padding: 16px;
+	border: #ddd;
+	background: #fff;
+}
+
+.paper.margin-bottom {
+	margin-bottom: 16px;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+	color: #7CB5EC;
+	font-style: normal;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+.table-data {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table-data td,
+.table-data th {
+	padding: 8px;
+}
+
+.table-data thead tr,
+.table-data tbody tr{
+	border-bottom: 1px solid #ddd;
+}
+
+.table-data tbody tr:last-child{
+	border-bottom: none;	
+}
+
+.float-container > div {
+	float: left;
+	margin: 8px;
+}
+
+.float-container > div.max {
+	width: calc(25% - 16px);
+}
+
+.float-container:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+h3 {
+	padding-bottom: 4px;
+	border-bottom: 2px solid #7CB5EC;
+	color: rgb(92,92,97);
+}

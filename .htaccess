@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^monthly-(.*).html$ index.php?date=$1&days=30 [L]
+RewriteRule ^weekly-(.*).html$ index.php?date=$1&days=7 [L]
+RewriteRule ^daily-(.*).html$ index.php?date=$1&days=1 [L]
